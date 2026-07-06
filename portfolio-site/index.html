@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harkirat Chahal</title>
+  <meta name="description" content="Harkirat Chahal — computer science student at UBC Okanagan. Projects, experience, and contact.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Harkirat Chahal</h1>
+      <p class="tagline">CS student at UBC Okanagan · Kelowna, BC</p>
+      <nav class="links">
+        <a href="https://github.com/harkirat-c">GitHub</a>
+        <a href="https://www.linkedin.com/in/harkirat-chahal/">LinkedIn</a>
+        <a href="mailto:harkirat@icloud.com">Email</a>
+        <a href="Harkirat_Chahal_Resume.pdf">Resume</a>
+      </nav>
+    </header>
+
+    <section id="about">
+      <p>
+        I'm Hark — a fourth-year computer science student at UBC Okanagan, minoring in
+        commerce. I like building web apps end to end: my capstone team is shipping a
+        platform that grades paper bubble sheets automatically with computer vision,
+        and I handle a chunk of the frontend plus the documentation.
+      </p>
+      <p>
+        Away from a keyboard I lift weights (VP of outreach for the campus weightlifting
+        club) and I've spent several seasons supervising harvest crews in Kelowna's
+        orchards — which taught me more about deadlines than any course did.
+      </p>
+      <p>
+        Currently looking for co-op/internship roles for Fall 2026 through Summer 2027 —
+        software, data/business analysis, or IT.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>// projects</h2>
+
+      <article class="project">
+        <h3>Optical Marking Management System</h3>
+        <p>
+          COSC 499 capstone, team of six. A web platform where instructors upload scanned
+          bubble sheets and get graded results back — OpenCV handles the mark recognition,
+          a Redis job queue keeps grading asynchronous, and everything sits on a FastAPI +
+          PostgreSQL backend. I built the results dashboard, grade breakdown tables, and
+          the student remark-request flow in React/TypeScript, and led the project's
+          documentation (design docs, wireframes, sprint board).
+        </p>
+        <p class="tags">React · TypeScript · FastAPI · PostgreSQL · Redis · OpenCV</p>
+        <p class="plink"><a href="https://github.com/harkirat-c/REPO">source</a></p>
+      </article>
+
+      <article class="project">
+        <h3>Job Board Web App</h3>
+        <p>
+          Team-built job posting board. I implemented user authentication and the
+          search/filtering features across a Vite + React frontend and a Node/Express +
+          MongoDB backend, organized routes → controllers → services.
+        </p>
+        <p class="tags">React · Node.js · Express · MongoDB Atlas</p>
+        <p class="plink"><a href="https://github.com/harkirat-c/REPO">source</a></p>
+      </article>
+
+      <article class="project">
+        <h3>Super Bug Zapper</h3>
+        <p>
+          A browser game written in raw WebGL for a computer graphics course — no engine,
+          just shaders, transformation matrices, and mouse picking. Built alongside an
+          interactive 3D sphere renderer for the same course.
+        </p>
+        <p class="tags">JavaScript · WebGL · GLSL</p>
+        <p class="plink"><a href="https://github.com/harkirat-c/REPO">source</a></p>
+      </article>
+    </section>
+
+    <section id="experience">
+      <h2>// experience</h2>
+      <ul class="jobs">
+        <li><span class="role">Sales Associate</span>, Avis Budget Group (YLW) — <span class="when">2025–present</span></li>
+        <li><span class="role">VP of Outreach</span>, SUO UBC Weightlifting Club — <span class="when">2025–present</span></li>
+        <li><span class="role">Harvest Supervisor</span>, Jaggar Orchards &amp; Vineyard — <span class="when">2022–2024</span></li>
+      </ul>
+      <p>Full details in my <a href="Harkirat_Chahal_Resume.pdf">resume</a>.</p>
+    </section>
+
+    <footer>
+      <p>Kelowna, BC · <a href="mailto:harkirat@icloud.com">harkirat@icloud.com</a></p>
+    </footer>
+  </main>
+</body>
+</html>
