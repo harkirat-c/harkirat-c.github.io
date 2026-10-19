@@ -158,3 +158,33 @@ footer {
 @media (max-width: 480px) {
   .pfp img { width: 72px; height: 72px; }
 }
+/* --- hire.html --- */
+
+.price-line {
+  font-family: var(--mono);
+  font-size: 0.92rem;
+  color: var(--ink);
+  border-left: 2px solid var(--accent);
+  padding-left: 0.85rem;
+  margin: 0 0 1.1rem;
+}
+
+.deliverables,
+.steps {
+  padding-left: 1.2rem;
+  margin: 0 0 1.1rem;
+}
+
+.deliverables li,
+.steps li { padding: 0.25rem 0; }
+
+.cta {
+  font-family: var(--mono);
+  font-size: 1.05rem;
+  margin: 0 0 0.5rem;
+}
+
+.foot-alt {
+  font-size: 0.85rem;
+  margin: 0.4rem 0 0;
+}
